@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark tech theme - cyberpunk aesthetic */
+    --background: 215 28% 5%;  /* #0B0F14 */
+    --foreground: 220 10% 92%; /* #E5E7EB */
+
+    --card: 215 18% 10%;       /* #111827 - glassmorphism surface */
+    --card-foreground: 220 10% 92%;
+
+    --popover: 215 18% 10%;
+    --popover-foreground: 220 10% 92%;
+
+    --primary: 187 85% 53%;    /* #22D3EE - cyan accent */
+    --primary-foreground: 215 28% 5%;
+
+    --secondary: 213 85% 68%;  /* #60A5FA - blue accent */
+    --secondary-foreground: 215 28% 5%;
+
+    --accent: 256 65% 75%;     /* #A78BFA - violet accent */
+    --accent-foreground: 215 28% 5%;
+
+    --muted: 220 10% 92%;
+    --muted-foreground: 220 8% 62%; /* #9CA3AF */
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 10% 92%;
+
+    --border: 215 18% 15%;
+    --input: 215 18% 12%;
+    --ring: 187 85% 53%;
+
+    --radius: 0.75rem;
+
+    /* Glow effects */
+    --glow-cyan: 187 85% 53%;
+    --glow-blue: 213 85% 68%;
+    --glow-violet: 256 65% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+}
+
+@layer utilities {
+  /* Glassmorphism effect */
+  .glass {
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Glow effects */
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(96, 165, 250, 0.3);
+  }
+
+  .glow-violet {
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.3);
+  }
+
+  /* Hover tilt effect */
+  .hover-tilt {
+    transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+  }
+
+  .hover-tilt:hover {
+    transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) scale(1.02);
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: all 200ms ease-out;
+  }
+}
