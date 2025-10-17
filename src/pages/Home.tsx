@@ -6,7 +6,7 @@ import QuickLinkTile from "../components/QuickLinkTile";
 
 const Home = () => {
   const skills = {
-    languages: ["Python", "Java", "C", "HTML / CSS", "JavaScript", "SQL"],
+    languages: ["Python", "Java", "C++", "JavaScript", "SQL","Dart"],
     devTools: [
       "VS Code",
       "Eclipse",
@@ -14,8 +14,7 @@ const Home = () => {
       "Google Colab",
       "Google Cloud Platform (GCP)",
       "Android Studio",
-      "Power BI",
-      "Tableau",
+      "IntelIJ",
     ],
     technologies: [
       "Streamlit",
@@ -26,6 +25,7 @@ const Home = () => {
       "Static & Dynamic APK Analysis",
       "Cloud Programming",
       "Full Stack Development",
+      "Flutter",
     ],
     aiFrameworks: [
       "TensorFlow",
@@ -48,10 +48,10 @@ const Home = () => {
       <section className="min-h-[80vh] flex items-center">
         <div className="max-w-3xl">
           <h1 className="text-6xl font-bold mb-6 text-foreground leading-tight">
-            Sanjana R
+            Vishnu P
           </h1>
           <p className="text-2xl text-muted-foreground mb-4">
-            Final-year CSE · AI/ML, Data Analytics and Cybersecurity
+            Final-year CSE · AI/ML, MERN Stack , App Dev and Cybersecurity
           </p>
           <p className="text-lg text-muted-foreground mb-8">
             Open to Internships and Full-time
@@ -90,7 +90,7 @@ const Home = () => {
             variant="outline"
             className="border-primary/50 hover:bg-primary hover:text-primary-foreground"asChild
             >
-              <a href="/cv/Sanjana-R-cv.pdf" download="Sanjana-R-cv.pdf">
+              <a href="/cv/VP_resume.pdf" download="VP_resume.pdf">
               <FileDown className="mr-2 h-5 w-5" />
               Download CV
             </a>
@@ -116,12 +116,7 @@ const Home = () => {
         <h2 className="text-3xl font-bold mb-6 text-foreground">About</h2>
         <div className="glass rounded-xl p-8 max-w-4xl">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a final-year Computer Science Engineering student passionate about AI/ML,
-            data visualization, and cybersecurity. With hands-on experience in building
-            intelligent systems and analyzing complex datasets, I bridge the gap between
-            cutting-edge technology and real-world applications. Currently developing
-            CipherX, an AI-powered security solution, while exploring opportunities to
-            contribute to innovative projects through internships.
+            I'm a Motivated and adaptable Computer Science student specializing in Information Science and Engineering, with strong skills in Python, Java, C++, and full-stack development (MERN & Flutter). Experienced in building projects integrating AI, machine learning, and cybersecurity solutions. Adept at problem-solving, communication, and teamwork, with proven leadership. Passionate about leveraging technology to solve real-world problems while continuously learning cutting-edge tools and frameworks.
           </p>
         </div>
       </section>

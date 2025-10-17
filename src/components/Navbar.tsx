@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto max-w-[1280px] px-8">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="text-xl font-bold text-foreground">
-            Sanjana R
+            Vishnu P
           </Link>
           
           <div className="flex items-center gap-8">
@@ -43,7 +43,7 @@ const Navbar = () => {
               className="bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth hover:glow-cyan"
               asChild
             >
-              <a href="/cv/Sanjana-R-cv.pdf" download="Sanjana_R_Resume.pdf">
+              <a href="/cv/VP_resume.pdf" download="VP_resume.pdf">
                 <FileDown className="mr-2 h-4 w-4" />
                 Download CV
               </a>

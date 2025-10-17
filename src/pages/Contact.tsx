@@ -18,23 +18,23 @@ const Contact = () => {
 
           <div className="space-y-4">
             <a
-              href="tel:+919148470768"
+              href="tel:+917019666370"
               className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-smooth"
             >
               <Phone className="h-5 w-5" />
-              <span>+91 9148470768</span>
+              <span>+91 7019666370</span>
             </a>
 
             <a
-              href="mailto:sanjanar.ten@gmail.com"
+              href="mailto:vishnup2603@gmail.com"
               className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-smooth"
             >
               <Mail className="h-5 w-5" />
-              <span>sanjanar.ten@gmail.com</span>
+              <span>vishnup2603@gmail.com</span>
             </a>
 
             <a
-              href="https://www.linkedin.com/in/sanjana-r-42bb65259/"
+              href="https://www.linkedin.com/in/vishnu-p-95a0aa257/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-muted-foreground hover:text-secondary transition-smooth"
@@ -43,8 +43,9 @@ const Contact = () => {
               <span>LinkedIn Profile</span>
             </a>
 
+
             <a
-              href="https://github.com/SanjanaR95"
+              href="https://github.com/swaggyV08"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 text-muted-foreground hover:text-accent transition-smooth"
@@ -65,7 +66,7 @@ const Contact = () => {
             className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth hover:glow-cyan"
             asChild
           >
-            <a href="/cv/Sanjana-R-cv.pdf" download="Sanjana_R_Resume.pdf">
+            <a href="/cv/VP_resume.pdf" download="VP_resume.pdf">
               <FileDown className="mr-2 h-5 w-5" />
               Download CV
             </a>
