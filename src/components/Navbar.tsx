@@ -43,7 +43,7 @@ const Navbar = () => {
               className="bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth hover:glow-cyan"
               asChild
             >
-              <a href="/cv/VP_resume.pdf" download="VP_resume.pdf">
+              <a href="/cv/VishnuP.pdf" download="VishnuP.pdf">
                 <FileDown className="mr-2 h-4 w-4" />
                 Download CV
               </a>

@@ -84,13 +84,13 @@ const Home = () => {
               <Link to="/virtual-simulations">View Virtual Job Simulations</Link>
             </Button>
 
-            {/* Download CV → place file at public/cv/sanjana-r-cv.pdf */}
+            {/* Download CV → place file at public/cv/VishnuP.PDF */}
             <Button
             size="lg"
             variant="outline"
             className="border-primary/50 hover:bg-primary hover:text-primary-foreground"asChild
             >
-              <a href="/cv/VP_resume.pdf" download="VP_resume.pdf">
+              <a href="/cv/VishnuP.pdf" download="VishnuP.pdf">
               <FileDown className="mr-2 h-5 w-5" />
               Download CV
             </a>

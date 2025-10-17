@@ -66,7 +66,7 @@ const Contact = () => {
             className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth hover:glow-cyan"
             asChild
           >
-            <a href="/cv/VP_resume.pdf" download="VP_resume.pdf">
+            <a href="/cv/VishnuP.pdf" download="VishnuP.pdf">
               <FileDown className="mr-2 h-5 w-5" />
               Download CV
             </a>
